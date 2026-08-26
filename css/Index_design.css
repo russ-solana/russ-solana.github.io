@@ -457,8 +457,14 @@ section {
 
     margin:20px 0;
 
+    cursor: pointer;
 
     transition: opacity .25s ease;
+}
+
+.modal-image:hover {
+    opacity: 0.9;
+    transform: scale(1.01);
 }
 
 

@@ -218,3 +218,13 @@ modal.addEventListener("click", function (event) {
     }
 
 });
+
+// =========================================
+// OPEN MODAL IMAGE IN A NEW TAB
+// =========================================
+
+modalImage.addEventListener("click", function () {
+    if (modalImage.src) {
+        window.open(modalImage.src, "_blank");
+    }
+});
